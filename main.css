@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 45px;
+    box-sizing: border-box;
+border: 2px solid rgb(222, 219, 219);
+background-color: rgb(255, 255, 255);
+}
+.container{
+    max-width: 1085px;
+    margin: 100%;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.select{
+    color: rgb(66, 66, 66);
+font-family: Inter;
+font-size: 36px;
+font-weight: 700;
+line-height: 44px;
+border: none;
+}
+.hero{
+    padding-top: 45px;
+}
+.ota{
+    width: 650px;
+    margin: 0 auto;
+    box-sizing: border-box;
+border: 1px solid rgb(222, 219, 219);
+border-radius: 50px;
+background-color: rgb(255, 255, 255);
+}
+.hero__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    padding-top: 60px;
+    padding-left: 56px;
+}
+.hero__title{
+    color: rgb(240, 64, 15);
+font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+padding-top: 67px;
+padding-right: 86px;
+}
+.hero__title2{
+    text-align: center;
+    padding-top: 137px;
+    color: rgb(14, 13, 93);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 79px;
+    background-color: #f9f9f9;
+}
+.button-container {
+    display: flex;
+    gap: 10px;
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    background: rgb(245, 245, 245);
+    align-items: center;
+}
+.button {
+    margin: 0 auto;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.primary {
+    width: 255px;
+    height: 54px;
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 28px;
+font-weight: 500;
+line-height: 34px;
+text-align: center;
+    background-color: #f3f3f3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.primary:hover{
+    background-color: white;
+}
+.secondary {
+    width: 255px;
+    height: 54px;
+    color: rgb(117, 117, 117);
+font-family: Inter;
+font-size: 28px;
+font-weight: 500;
+line-height: 34px;
+text-align: center;
+    background-color: #f3f3f3;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.secondary:hover{
+    background-color: white;
+}
+.form{
+    gap: 39px;
+    padding-top: 39px;
+    padding-left: 64px;
+}
+.input1{
+    width: 533px;
+    height: 70px;
+    color: rgba(117, 117, 117, 0.7);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+text-align: start;
+    box-sizing: border-box;
+border: 1px solid rgba(117, 117, 117, 0.19);
+border-radius: 20px;
+background: rgb(250, 250, 250);
+}
+.input2{margin-top: 39px;
+    width: 533px;
+    height: 70px;
+    color: rgba(117, 117, 117, 0.7);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+text-align: start;
+    box-sizing: border-box;
+border: 1px solid rgba(117, 117, 117, 0.19);
+border-radius: 20px;
+background: rgb(250, 250, 250);
+}
+.div{
+    padding-top: 18px;
+    padding-left: 70px;
+}
+.qr{
+    margin-top: 18px;
+    padding-left: 150px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.64);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+}
+.button2{
+    margin-left: 389px;
+    margin-bottom: 34px;
+    margin-top: 34px;
+    border: none;
+    width: 202px;
+    height: 67px;
+    border-radius: 20px;
+    background: rgb(246, 158, 134);
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+}
+.button2:hover{
+    background-color: red;
+}
+body{
+    background-image: url("./images/mars2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
